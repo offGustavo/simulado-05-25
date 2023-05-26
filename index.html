@@ -17,7 +17,7 @@
 </head>
 <body>
 
-      <nav class="navbar navbar-expand-lg fixed-top bg-body-tertiary px-3">
+    <nav class="navbar navbar-expand-lg fixed-top bg-body-tertiary px-3">
         <div class="container-fluid">
           <a href="index.html" class=" navbar-brand fs-3 "><i class="bi bi-egg-fried"></i></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -28,22 +28,12 @@
             <ul class="navbar-nav px-3">
                 <li class="nav-item"><a class="nav-link" href="#info">Infomartica</a></li>
                 <li class="nav-item"><a class="nav-link" href="#contato">Contato</a></li>
-                <li class="nav-item"><a class="nav-link" href="#redes">Redes Sociais</a></li>
+                <li class="nav-item"><a class="nav-link text-nowrap" href="#redes">Redes Sociais</a></li>
             </ul>
           </div>
 
-      </nav>
-      <!-- <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-          Dropdown
-        </a>
-        <ul class="dropdown-menu">
-          <li><a class="dropdown-item" href="#">Action</a></li>
-          <li><a class="dropdown-item" href="#">Another action</a></li>
-          <li><hr class="dropdown-divider"></li>
-          <li><a class="dropdown-item" href="#">Something else here</a></li>
-        </ul> -->
-    <header>
+    </nav>
+    <header id="header">
         <div id="carouselHeader" class="carousel slide carousel-fade" data-bs-ride="true">
             <div class="carousel-indicators">
                 <button type="button" data-bs-target="#carouselHeader" data-bs-slide-to="0" class="active"
@@ -75,7 +65,7 @@
         </div>
     </header>
     <main class="container row mx-auto">
-        <section class="col-lg-4 px-md-3 px-5 ">
+        <section class="col-lg-4 px-md-3 px-5 " id="galeria">
             <h3 class="display-6 my-3">Galeria</h3>
             <div class="card mb-3">
                 <div id="carouselCard-01" class="carousel slide">
@@ -412,8 +402,8 @@
             <div class="col-12">
                 <div class="row">
                     <div class="col-4">
-                        <figure class=" px-3 m-0">
-                            <img src="https://picsum.photos/500/1100" class="img-fluid" alt="">
+                        <figure class=" px-0 m-0">
+                            <img src="https://picsum.photos/500/1100" class="img-fluid rounded" alt="">
                         </figure>
                     </div>
                     <div class="col-8">
@@ -466,7 +456,7 @@
     <footer class="py-5 container" id="redes">
         <div class="row">
             <div class="col-6 col-md-2 mb-3">
-                <h5>Redes Sociais</h5>
+                <h5 class="text-nowrap">Redes Sociais</h5>
                 <ul class="nav flex-column">
                     <li class="nav-item mb-2">
                         <a href="#" class="nav-link p-0 text-muted">
@@ -483,14 +473,12 @@
                 </ul>
             </div>
             <div class="col-6 col-md-10 d-flex justify-content-end align-items-end">
-                <a href="#" class=" btn btn-outline-dark  px-2 py-1">
+                <a href="#header" class=" btn btn-outline-dark  px-2 py-1">
                     <i class="bi bi-arrow-bar-up"></i> 
                     Voltar ao topo
                 </a>
             </div>
     </footer>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
-        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
 </body>
 </html>
